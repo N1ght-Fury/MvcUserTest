@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "User Form";
+}
+
+     <form method="post" enctype="multipart/form-data" asp-controller="Users" asp-action="Index">
+        <table>
+            <tr>
+                <td>Name: </td>
+                <td><input type="text" id="txtName" name="Name"/></td>
+            </tr>
+            <tr>
+                <td>Surname: </td>
+                <td><input type="text" id="txtSurname" name="Surname"/></td>
+            </tr>
+            <tr>
+                <td>Birthdate: </td>
+                <td><input type="text" id="txtBirthdate" name="Birthdate"/></td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td><input type="text" id="txtGender" name="Gender"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"/></td>
+            </tr>
+        </table>
+    </form>

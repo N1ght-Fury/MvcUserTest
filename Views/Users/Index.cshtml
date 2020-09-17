@@ -18,8 +18,61 @@
             </tr>
             <tr>
                 <td>Gender: </td>
-                <td><input type="text" id="txtGender" name="Gender"/></td>
+                <td>
+                    <input  type="radio" value="False" name="Gender"/> Female
+                    &nbsp;&nbsp;
+                    <input  type="radio" value="True" name="Gender"/> Male
+                </td>
+                @* <td><input type="text" id="txtGender" name="Gender"/></td> *@
             </tr>
+            <tr>
+                <td>Select two numbers: </td>
+                
+                <td>
+                    <input type="checkbox" name="FirstNumber" value="1"/><label>&nbsp;1</label>
+                    &nbsp;&nbsp;
+                    <input type="checkbox" name="FirstNumber" value="3"/><label>&nbsp;3</label>
+                    &nbsp;&nbsp;
+                    <input type="checkbox" name="SecondNumber" value="5"/><label>&nbsp;5</label>
+                    &nbsp;&nbsp;
+                    <input type="checkbox" name="SecondNumber" value="7"/><label>&nbsp;7</label>
+                </td>
+            </tr>
+            <tr>
+                <td>City: </td>
+                <td><input type="text" id="txtCity" name="City"/></td>
+            </tr>
+            <table>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Turkish</th>
+                            <td>
+                                <input  type="radio" name="TurkishGrammar" value="3"/> İyi &nbsp;&nbsp;
+                                <input  type="radio" name="TurkishGrammar" value="2"/> Orta &nbsp;&nbsp;
+                                <input  type="radio" name="TurkishGrammar" value="1"/> Kötü &nbsp;&nbsp;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">English</th>
+                            <td>
+                                <input  type="radio" name="EnglishGrammar" value="3"/> İyi &nbsp;&nbsp;
+                                <input  type="radio" name="EnglishGrammar" value="2"/> Orta &nbsp;&nbsp;
+                                <input  type="radio" name="EnglishGrammar" value="1"/> Kötü &nbsp;&nbsp;
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Russian</th>
+                            <td>
+                                <input  type="radio" name="RussianGrammar" value="3"/> İyi &nbsp;&nbsp;
+                                <input  type="radio" name="RussianGrammar" value="2"/> Orta &nbsp;&nbsp;
+                                <input  type="radio" name="RussianGrammar" value="1"/> Kötü &nbsp;&nbsp;
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
             <tr>
                 <td></td>
                 <td><input type="submit" value="Submit"/></td>
